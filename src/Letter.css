@@ -1,0 +1,15 @@
+.pendu > .letter {
+    font-size: 2em;
+    flex: 1 1 calc(100% / 6 - 0.4em);
+    margin: 0.2em;
+    display: flex;
+    cursor: pointer;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.pendu > .letter.used {
+    background: silver;
+    cursor: not-allowed;
+  }

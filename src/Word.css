@@ -1,0 +1,7 @@
+.word {
+    width: 100%;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+}
